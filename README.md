@@ -5,14 +5,25 @@
 *  Optimisation: eliminate model constrains
 *  Make the convergence faster  
 
-## Important topics for interim report:(Sunday 3rd June @ 22:59)
-* Define the research topic: define specific research questions/problems/hypotheses
-* Give the background literature that supports the research and identifies the gaps in the knowledge that defines the novelty of the research
-* Develop the research methods. Design the appropriate methodology (simulations, experiments, benchmark parameters, …) that will allow the gathering of evidence and the formulation of the conclusion.
-* Give the criteria against which to evaluate progress and success.
-
-## Important topics for final report:(Sunday 19th August @ 22:59)
-* Write a conference of journal paper that could be submitted for publication in the scientific community.
-* Identify the reasons why some research methodologies applied where appropriate/inappropriate for the research tasks and give an improvement/alternative of a more effective methodology to achieve the research outcomes.
-* Reflect on your own contribution: where did you add to the group effort (e.g. because you measured/simulated a certain set of items the group was able to publish, move forward faster…), where did you propose and test alternative approaches and which of those where implemented or not (why),
-* What did you learn? Describe how you see research: aims, tasks and outcomes.
+## Estimation of Origin-Destination Matrix and Assignment Matrix: Blind Estimation and Statistical Approach
+## Abstract
+This paper presents novel a approach to the origin-destination(OD) matrix estimation problem.
+A new linear model is proposed based on O- flows, which allows the estimation of the OD- flows
+without prior information of it. Accordingly, a deterministic and rigid model is formulated and
+simulations are perform to proof the applicability of the model, the capability of the new model
+is demonstrated by simulations. The paper also considers the case when prior information of OD
+flow and/or assignment matrix is available, statistical model and maximum likelihood estimator for
+the OD-flows are also developed which incorporates historical data of OD-flow. A decomposition
+algorithm is proposed to solve the optimization of objective function and its convergence is proved.
+Thimplementation of the statistical model is demonstrated on a synthetic network.
+## Introduction
+In the world today, population growth have resulted in increasingly severe traffic congestion. Effective
+transportation polices and control measures can improve traffic safety and quality, as well as accelerate
+economic growth and reduce pollution. Both the origin-destination(OD) matrix and traffic flows
+assignment on network links are important information for traffic management, operations and urban
+planning efforts to mitigate congestion. The former is known as the estimation of OD matrix problem,
+and the latter as the estimation of traffic assignment matrix problem.
+More specifically, this paper focuses to solve the following problem: Consider a network g(N;L)
+with N representing the nodes and L being the set of links. The problem is to estimate both the OD
+flows and the link choice proportions from only the link flow information. Another approach is also
+formulated when historical information of OD- flow is available.
